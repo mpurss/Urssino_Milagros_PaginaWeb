@@ -101,7 +101,8 @@ body:focus .back-to-top {
                 <p>Los estudiantes tienen la oportunidad de participar en proyectos creativos prácticos y realizar pasantías profesionales para adquirir experiencia laboral en la industria. Esta combinación de teoría y práctica prepara a los estudiantes para enfrentar los desafíos del campo del diseño y la animación, brindándoles las habilidades necesarias para destacarse en este apasionante sector.</p>
                 <hr>
                 <br>
-              
+                <p>Haz clic en el siguiente enlace para descargar y jugar:</p>
+                <a href="https://drive.google.com/file/d/1vVbqQo85yVyuy7jr1iFi615luoxCj42r/view?usp=drive_link" download style="color:crimson;">Descargar Space Invaders APK</a>
               </td>
             </tr>
           </table>
