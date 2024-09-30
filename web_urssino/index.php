@@ -53,8 +53,8 @@ body:focus .back-to-top {
   <nav id="desktop-nav">
     <ul class="nav-links">  
       <li><a href="#SobreMi" onclick="toggleMenu()">Sobre Mi</a></li>
-        <li><a href="#contacto" onclick="toggleMenu()">Servicios</a></li>
-        <li><a href="#Portfolio" onclick="toggleMenu()">Portfolio</a></li>  
+        <li><a href="./servicios/index.php" onclick="toggleMenu()">Servicios</a></li>
+        <li><a href="./portfolio/index.php" onclick="toggleMenu()">Portfolio</a></li>  
         <li><a href="./contactos/index.php" onclick="toggleMenu()">Contactos</a></li>
     </ul>
   </nav> 
@@ -68,8 +68,8 @@ body:focus .back-to-top {
       </div>
       <div class="menu-links">
         <li><a href="#SobreMi" onclick="toggleMenu()">Sobre Mi</a></li>
-        <li><a href="#contacto" onclick="toggleMenu()">Servicios</a></li>
-        <li><a href="#Portfolio" onclick="toggleMenu()">Portfolio</a></li>  
+        <li><a href="./servicios/index.php" onclick="toggleMenu()">Servicios</a></li>
+        <li><a href="./portfolio/index.php" onclick="toggleMenu()">Portfolio</a></li>  
         <li><a href="./contactos/index.php" onclick="toggleMenu()">Contactos</a></li>
         
       </div>
@@ -111,165 +111,7 @@ body:focus .back-to-top {
     </table>
   </section>
   <!-- End Sobre Mi -->
- <!-- Start Portfolio -->
- <section class="Portfolio" id="Portfolio">
-    <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#BABDE2">
-      <tr>
-        <td>
-          <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
-            <!-- Heading Start -->
-            <tr>
-              <td height="160" align="center" valign="middle" colspan="3">
-                <font face="arial" size="6" color="#171B36">Portfolio</font>
-                <hr width="70" color="#171B36">
-              </td>
-            </tr>
-            <!-- Heading End -->
-            <tr>
-				<td width="33.33%" valign="top">
-				  <table border="0" width="100%" cellpadding="15" cellspacing="0" align="center" bgcolor="#BABDE2">
-					  <tr>
-						  <td>
-							  <font face="arial" size="5" color="#171B36">
-							  Primer Proyecto
-							 </font>
-							 <br/>
-							 <br/>
-							 <font face="arial" size="4" color="#374375">
-							  Diseño de Pagina
-							 </font>
-							 <br/><br/>
-						  <img src="./imagenes/diseno pagina.tp1.jpg" width="100%"/>
-						  </td>
-					  </tr>
-				  </table>	
-				</td>
-				
-				<td width="33.33%" valign="top">
-				  <table border="0" width="100%" cellpadding="15" cellspacing="0" align="center" bgcolor="#BABDE2">
-					  <tr>
-						  <td>
-							  <font face="arial" size="5" color="#171B36">
-							   Segundo Proyecto 
-							 </font>
-							 <br/>
-							 <br/>
-							 <font face="arial" size="4" color="#374375">
-							  Diseñar
-							 </font>
-							 <br/><br/>
-						  <img src="./imagenes/creacion de personaje.tp2.jpg" width="100%"/>
-						  </td>
-					  </tr>
-				  </table>	
-				</td>
-   
-				<td width="33.33%" valign="top">
-				  <table border="0" width="100%" cellpadding="15" cellspacing="0" align="center" bgcolor="#BABDE2">
-					  <tr>
-						  <td>
-							  <font face="arial" size="5" color="#171B36">
-							  Tercer Proyecto
-							 </font>
-							 <br/>
-							 <br/>
-							 <font face="arial" size="4" color="#374375">
-							  Diseño Grafico
-							 </font>
-							 <br/><br/>
-						  <img src="./imagenes/disenodemarca.tp3.jpg" width="100%"/>
-						  </td>
-					  </tr>
-				  </table>	
-				</td>
-			</tr>
-			 <tr>
-				<td width="33.33%" valign="top">
-				  <table border="0" width="100%" cellpadding="15" cellspacing="0" align="center" bgcolor="#BABDE2">
-					  <tr>
-						  <td>
-							  <font face="arial" size="5" color="#171B36">
-							  Cuarto Proyecto
-							 </font>
-							 <br/>
-							 <br/>
-							 <font face="arial" size="4" color="#374375">
-							  Codigo
-							 </font>
-							 <br/><br/>
-						  <img src="./imagenes/img_tr2.jpg" width="100%"/>
-						  </td>
-					  </tr>
-				  </table>	
-				</td>
-				
-				<td width="33.33%" valign="top">
-				  <table border="0" width="100%" cellpadding="15" cellspacing="0" align="center" bgcolor="#BABDE2">
-					  <tr>
-						  <td>
-							  <font face="arial" size="5" color="#171B36">
-							  Quinto Proyecto
-							 </font>
-							 <br/>
-							 <br/>
-							 <font face="arial" size="4" color="#374375">
-							  Animacion
-							 </font>
-							 <br/><br/>
-						  <img src="./imagenes/animacion.tp5.jpg" width="100%"/>
-						  </td>
-					  </tr>
-				  </table>	
-				</td>
-   
-				<td width="33.33%" valign="top">
-				  <table border="0" width="100%" cellpadding="15" cellspacing="0" align="center" bgcolor="#BABDE2">
-					  <tr>
-						  <td>
-							  <font face="arial" size="5" color="#171B36">
-							  Sexto Proyecto
-							 </font>
-							 <br/>
-							 <br/>
-							 <font face="arial" size="4" color="#374375">
-							  Estilo
-							 </font>
-							 <br/><br/>
-						  <img src="./imagenes/la niña y la estrella.tp6.jpg" width="100%"/>
-						  </td>
-					  </tr>
-				  </table>	
-				</td>
-			</tr>
-		   <!-- section padding bottom -->
-			  <tr>
-					<td height="60" colspan="3">
-					
-					</td>
-			  </tr>
-			 <!-- section padding bottom End-->
-		  </table>
-		</td>
-	  </tr>
-   </table>
-   <!-- End Portfolio -->
-
-
-  <!-- Start Pie De Pagina -->
-  <section id="contacto">
-    <h3 class="section_text_p1">Envía un mensaje</h3> 
-    <h1 class="title">Contactame</h1>
-    <div class="contact-info-upper-container">
-      <div class="contact-info-container">
-        <img src="./imagenes/correo.png" alt="Email icon" class="icon contact-icon email-icon">
-        <p><a href="mailto:mpurssino@gmail.com">mpurssino@gmail.com</a></p>
-      </div>
-      <div class="contact-info-container">
-        <img src="./imagenes/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
-        <p><a href="https://www.linkedin.com">LinkedIn</a></p>
-      </div>
-    </div>
-  </section>
+ 
   <footer>
     <nav>
       <div class="nav-links-container">
@@ -284,7 +126,6 @@ body:focus .back-to-top {
     </nav>
   </footer>
   <!-- End Footer -->
-  <script src="./js/script.js"></script>
-  
+  <script src="./js/script.js"></script> 
 </body>
 </html>

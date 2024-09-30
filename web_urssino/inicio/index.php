@@ -67,9 +67,12 @@
       $('.fade-in').addClass('show');
     });
   </script>
+  <script src="../js/script.js"></script>
 </body>
 </html>
 
 <?php
 echo "Index de inicio.php cargado.";
 ?>
+
+  

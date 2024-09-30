@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../css/estilo3.css">
+
 <?php
 $usuario = $_POST["usuario"];
 $contraseña = $_POST["contraseña"];

@@ -27,8 +27,8 @@
       <ul class="nav-links">
         <li><a href="../inicio/index.php">Inicio</a></li>
         <li><a href="../index.php">Sobre Mi</a></li>
-        <li><a href="../index.php">Servicios</a></li>
-        <li><a href="../index.php">Portfolio</a></li>
+        <li><a href="../servicios/index.php">Servicios</a></li>
+        <li><a href="../portfolio/index.php">Portfolio</a></li>
       </ul>
     </nav> 
   </div>
@@ -56,7 +56,7 @@
       <input id="usuario" class="controls" type="text" name="usuario" placeholder="Usuario" required>
       <input id="contraseña" class="controls" type="password" name="contraseña" placeholder="Contraseña" required>
       <input class="buttons" type="submit" value="Ingresar">
-      <p align="center"><a href="../index.php">¿Olvidaste tu Contraseña?</a></p>
+      <p align ="center"><a href="../index.php">¿Olvidaste tu Contraseña?</a></p>
     </form>
   </section>
 
